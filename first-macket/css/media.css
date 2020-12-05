@@ -1,0 +1,37 @@
+main header nav [type="checkbox"] {
+  display: none;
+}
+
+main header nav label {
+  display: none;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  main header nav ul {
+    display: none;
+  }
+  main header nav label {
+    display: inline-block;
+  }
+  main header nav input.toggleMenu:checked + label.toggleMenu {
+    color: black;
+    border-bottom: 0.5px solid black;
+  }
+  main header nav input.toggleMenu:checked ~ ul {
+    display: block;
+  }
+  main header nav input.toggleMenu:checked ~ ul li {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  main header nav {
+    width: 100%;
+  }
+}
