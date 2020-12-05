@@ -30,6 +30,15 @@ main header nav label {
   }
 }
 
+@media (max-width: 1399.5px) {
+  .third-block .img-third {
+    display: none;
+  }
+  .right-pad-0 {
+    padding-right: 9x;
+  }
+}
+
 @media (max-width: 1200px) {
   main header nav {
     width: 100%;
@@ -43,6 +52,9 @@ main header nav label {
 }
 
 @media (max-width: 575px) {
+  .third-block .third-box {
+    padding: 80px 0;
+  }
   footer {
     padding-left: 0;
     padding-right: 0;
