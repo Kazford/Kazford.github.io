@@ -22,6 +22,10 @@ html {
 		text-decoration: none;
 	}
 }
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
 .button-blue {
 	display: inline-block;
 	background-color: $blue;
@@ -39,6 +43,7 @@ html {
 //main
 main {
 	background-color: $here;
+	//header
 	header {
 		padding-top: 38px;
 		.logo {
@@ -76,6 +81,7 @@ main {
 			}
 		}
 	}
+	//first block
 	.first-block {
 		&-title {
 			margin: 180px 0 200px 0;
@@ -95,7 +101,20 @@ main {
 		}
 	}
 }
+//second block
+.second-block {
+	text-align: center;
+	padding: 100px 0px;
 
+	p {
+		font-size: 16px;
+		color: $p;
+		margin: 40px 76px;
+	}
+	img {
+		max-width: 223px;
+	}
+}
 //footer
 footer {
 	background-color: #000;

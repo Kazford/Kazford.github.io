@@ -10,6 +10,11 @@ html a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .button-blue {
   display: inline-block;
   background-color: #10c9c3;
@@ -88,6 +93,21 @@ main .first-block-title p {
   line-height: 28px;
   max-width: 474px;
   margin: 30px 0 60px 0;
+}
+
+.second-block {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.second-block p {
+  font-size: 16px;
+  color: #787878;
+  margin: 40px 76px;
+}
+
+.second-block img {
+  max-width: 223px;
 }
 
 footer {
