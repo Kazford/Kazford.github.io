@@ -76,6 +76,17 @@ main {
 			padding: 80px 0;
 		}
 	}
+	.four-block {
+		.four-box {
+			margin-left: 50%;
+			transform: translateX(-50%);
+			padding-top: 40px;
+			padding-bottom: 0px;
+		}
+		.last-four-box {
+			padding-bottom: 40px;
+		}
+	}
 	footer {
 		padding-left: 0;
 		padding-right: 0;

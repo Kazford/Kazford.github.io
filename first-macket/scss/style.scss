@@ -190,6 +190,32 @@ main {
 .right-pad-0 {
 	padding-right: 0;
 }
+
+//four block
+.four-block {
+	background-color: $blue;
+	.four-box {
+		display: flex;
+		padding: 100px 0;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+		p {
+			margin-left: 15px;
+			font-size: 12px;
+			display: block;
+			color: #fff;
+			text-transform: uppercase;
+			line-height: 12px;
+			&:first-child {
+				font-size: 13px;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
 //footer
 footer {
 	background-color: #000;
