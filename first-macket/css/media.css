@@ -35,3 +35,27 @@ main header nav label {
     width: 100%;
   }
 }
+
+@media (max-width: 991px) {
+  footer ul {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  footer * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer ul {
+    display: inline-block;
+  }
+  footer ul:first-child {
+    margin-top: 30px;
+  }
+}
