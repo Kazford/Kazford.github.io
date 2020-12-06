@@ -226,6 +226,156 @@ main .first-block-title p {
   font-weight: 700;
 }
 
+.five-block * {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.five-block .five-box {
+  height: 340px;
+}
+
+.five-block .gray {
+  background-color: #838383;
+}
+
+.five-block .gray:hover {
+  background-color: #434343;
+}
+
+.five-block .white {
+  background-color: #dddddd;
+}
+
+.five-block .white:hover {
+  background-color: #9d9d9d;
+}
+
+.six-block {
+  background-color: #f5f5f5;
+}
+
+.six-block-title {
+  text-transform: uppercase;
+  color: #787878;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.seven-block {
+  padding: 100px 0;
+}
+
+.seven-block p {
+  color: #787878;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.seven-block .video {
+  padding: 70px;
+  height: 720px;
+}
+
+.seven-block .video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.eight-block {
+  background-color: #f5f5f5;
+}
+
+.eight-block .eight-under-block {
+  padding: 100px 0;
+}
+
+.eight-block .eight-box {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-right: 70px;
+}
+
+.eight-block .eight-box img {
+  margin-bottom: 30px;
+}
+
+.eight-block .eight-box h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.eight-block .eight-box p {
+  color: #787878;
+}
+
+.eight-block .col-xxl-3:nth-child(4n) .eight-box {
+  padding-right: 0;
+}
+
+.nine-block {
+  padding: 170px 0;
+  background-color: #10c9c3;
+  text-align: center;
+  color: #fff;
+}
+
+.nine-block h2 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.ten-block {
+  padding: 65px 0px;
+}
+
+.ten-block .ten-box {
+  padding: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.eleven-block {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.eleven-block p {
+  color: #787878;
+  margin: 30px 0;
+}
+
+.eleven-block .block-input {
+  padding: 0 30px;
+}
+
+.eleven-block .block-input input {
+  display: inline-block;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 20px;
+  margin: 30px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.eleven-block .block-input .input-last-child {
+  padding-bottom: 140px;
+}
+
 footer {
   background-color: #000;
   padding: 100px;
