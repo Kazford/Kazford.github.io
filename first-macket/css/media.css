@@ -1,19 +1,25 @@
-main header nav [type="checkbox"] {
-  display: none;
-}
-
-main header nav label {
-  display: none;
-  line-height: 24px;
-  font-weight: 700;
-  cursor: pointer;
-  position: relative;
-  font-size: 14px;
-}
-
 @media (max-width: 1200px) {
+  main header {
+    position: relative;
+  }
+  main header nav {
+    padding: 20px 0 0 0;
+    position: relative;
+  }
   main header nav ul {
-    display: none;
+    display: block;
+    position: absolute;
+    background-color: #e2e2e2;
+    margin: 0;
+    margin-right: -20px;
+    padding: 10px;
+    top: -500px;
+    right: 0;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  main header nav ul li {
+    display: block;
   }
   main header nav label {
     display: inline-block;
@@ -40,12 +46,65 @@ main header nav label {
 }
 
 @media (max-width: 1200px) {
+  main header .burger {
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 10%;
+    margin-left: 90%;
+  }
+  main header .burger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    left: 0;
+    top: 9px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  main header .burger::before, main header .burger::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  main header .burger::before {
+    top: 0;
+  }
+  main header .burger::after {
+    bottom: 0;
+  }
   main header nav {
     width: 100%;
   }
   .seven-block .video {
     height: 600px;
     padding: 50px 0;
+  }
+  main header .burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  main header .burger.active::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  main header .burger.active::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 9px;
+  }
+  main header .burger-help.active ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
 

@@ -45,13 +45,18 @@ h2 {
 main {
 	background-color: $here;
 	//header
+	.bg-header {
+		background-color: rgb(226, 226, 226);
+	}
 	header {
 		padding-top: 38px;
 		.logo {
 			width: 31px;
 			height: 25px;
 		}
-
+		.burger {
+			display: none;
+		}
 		nav {
 			text-transform: uppercase;
 			text-align: right;
