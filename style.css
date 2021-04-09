@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.student {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 3px;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none; }
+
+.tools {
+  margin: 5px 0; }
+
+.edit {
+  padding: 5px 10px; }
+
+.delete {
+  padding: 5px 10px; }
+
+label {
+  display: block; }
+
+.subject {
+  display: grid;
+  grid-template-areas: "time subj " "time week" "place teacher";
+  font-size: 14px;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: 30% 30% 30%;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 3px; }
+  .subject .time {
+    grid-area: time; }
+  .subject .place {
+    grid-area: place; }
+  .subject .subj {
+    grid-area: subj; }
+  .subject .week {
+    grid-area: week;
+    font-size: 12px; }
+  .subject .teacher {
+    grid-area: teacher; }
+
+.none {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 3px; }
+
+.bg-popup {
+  z-index: 8;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  .bg-popup.hide {
+    display: none; }
+
+.popup {
+  z-index: 9;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 200px;
+  height: auto;
+  text-align: center;
+  padding: 20px; }
+  .popup.hide {
+    display: none; }
+  .popup input {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 3px; }
+  .popup button {
+    width: 70px;
+    height: 35px;
+    margin-bottom: 5px; }
+  .popup a {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 5px; }
+
+/*# sourceMappingURL=style.css.map */

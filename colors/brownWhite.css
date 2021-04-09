@@ -1,0 +1,42 @@
+body {
+    background-color:  #121212 ;
+}
+.text {
+    color: #fff6d4 ;
+}
+.student {
+    /* index.php index2.php */
+    background-color: #7b0323;
+    color: #fff6d4 ;
+}
+.subject {
+    /* student.php */
+    background-color: #7b0323;
+    color: #fff6d4 ;
+}
+.none {
+    /* student.php */
+    background-color: #7b0323;
+    color: #fff6d4 ;
+}
+.bg-popup {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.popup {
+    background-color: #7b0323;
+}
+.popup button {
+    background-color: yellow;
+}
+.popup a {
+    color: #fff6d4 ;
+    background-color: black;
+}
+.edit {
+    background-color: orange;
+    color: #fff6d4 ;
+}
+.delete {
+    background-color: red;
+    color: aliceblue;
+}

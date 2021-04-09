@@ -1,0 +1,36 @@
+body{
+    background-color: #fff;
+}
+.student {
+    background-color: deepskyblue;
+    color: antiquewhite;
+}
+.edit {
+    background-color: orange;
+    color: aliceblue;
+}
+.delete {
+    background-color: red;
+    color: aliceblue;
+}
+.subject {
+    background-color: deepskyblue;
+    color: aliceblue;
+}
+.none {
+    background-color: deepskyblue;
+    color: aliceblue;
+}
+.bg-popup {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.popup {
+    background-color: deepskyblue;
+}
+.popup button {
+    background-color: yellow;
+}
+.popup a {
+    color: white;
+    background-color: black;
+}
